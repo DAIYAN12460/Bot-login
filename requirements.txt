@@ -1,5 +1,8 @@
+cat > requirements.txt << 'EOF'
 Flask==2.3.2
 requests==2.31.0
 pycryptodome==3.19.0
 urllib3==2.0.4
 python-telegram-bot==20.7
+cryptography==41.0.7
+EOF
