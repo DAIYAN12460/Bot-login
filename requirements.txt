@@ -1,8 +1,7 @@
-cat > requirements.txt << 'EOF'
-Flask==2.3.2
-requests==2.31.0
-pycryptodome==3.19.0
-urllib3==2.0.4
-python-telegram-bot==20.7
-cryptography==41.0.7
-EOF
+cd /storage/emulated/0/bind/access_to_login/
+echo "Flask==2.3.2" > requirements.txt
+echo "requests==2.31.0" >> requirements.txt
+echo "pycryptodome==3.19.0" >> requirements.txt
+echo "urllib3==2.0.4" >> requirements.txt
+echo "python-telegram-bot==20.7" >> requirements.txt
+echo "cryptography==41.0.7" >> requirements.txt
